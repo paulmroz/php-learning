@@ -1,4 +1,4 @@
-<?php require ('partials/head.php');?>
+<?php require('partials/head.php');?>
     
 	
 <h1>All Users</h1>
@@ -25,4 +25,4 @@
 
 	
 	
-<?php require ('partials/footer.php');?>
+<?php require('partials/footer.php');?>

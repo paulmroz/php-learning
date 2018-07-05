@@ -3,21 +3,21 @@
 return [
 
 
-	'database' => [
+    'database' => [
 
-	 	'name' => 'mytodo',
+        'name' => 'mytodo',
 
-	 	'username' => 'root',
+        'username' => 'root',
 
-	 	'password' => 'zxc',
+        'password' => 'zxc',
 
-	 	'connection' => 'mysql:host=127.0.0.1',
+        'connection' => 'mysql:host=127.0.0.1',
 
-	 	'options' => [
+        'options' => [
 
-	 		PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
-	 	]
+            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
+        ]
 
-	]
+    ]
 
 ];

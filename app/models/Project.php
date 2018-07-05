@@ -3,7 +3,6 @@
 
 namespace App\Models;
 
-class Project {
-
-
+class Project
+{
 }

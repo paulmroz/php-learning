@@ -1,16 +1,16 @@
 <?php
 
 /*$router->define([
- 
-	 '' => 'controllers/index.php',
 
-	 'about' => 'controllers/about.php',
+     '' => 'controllers/index.php',
 
-	 'about/culture' => 'controllers/about-culture.php',
+     'about' => 'controllers/about.php',
 
-	 'contact' => 'controllers/contact.php',
+     'about/culture' => 'controllers/about-culture.php',
 
-	 'names' => 'controllers/add-name.php'
+     'contact' => 'controllers/contact.php',
+
+     'names' => 'controllers/add-name.php'
 
 ]);
 */
@@ -28,6 +28,3 @@ $router->get('contact', 'PagesController@contact');
 $router->get('users', 'UsersController@index');
 
 $router->post('users', 'UsersController@store');
-
-
-

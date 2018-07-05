@@ -1,28 +1,23 @@
 <?php
 
-class Connection 
+class Connection
 {
-	public static function make($config) {
+    public static function make($config)
+    {
+        try {
+            return new PDO(
 
-		try {
+            $config['connection'].';dbname='.$config['name'],
 
-	
-		return new PDO(
+            $config['username'],
 
-			$config['connection'].';dbname='.$config['name'],
+            $config['password'],
 
-			$config['username'],
+            $config['options']
 
-			$config['password'],
-
-			$config['options'] 
-
-		);
-
-		} catch(PDOException $e) {
-
-			die($e->getMessage());
-		}
-	}
+        );
+        } catch (PDOException $e) {
+            die($e->getMessage());
+        }
+    }
 }
-
